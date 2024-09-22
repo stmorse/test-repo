@@ -11,7 +11,4 @@ COPY script.py /app/
 WORKDIR /app
 
 # run the script
-# note the '-u' flag which will run
-# the script with unbuffered output, forcing print 
-# to display immediately in logs
-CMD ["python", "-u", "agent.py"]
+CMD ["python", "agent.py"]

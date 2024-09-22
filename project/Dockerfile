@@ -13,4 +13,4 @@ WORKDIR /app
 ENV PYTHONUNBUFFERED=1
 
 # run the script
-CMD ["python", "agent.py"]
+CMD ["python", "script.py"]

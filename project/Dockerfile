@@ -10,7 +10,5 @@ COPY script.py /app/
 # set the working directory
 WORKDIR /app
 
-ENV PYTHONUNBUFFERED=1
-
 # run the script
 CMD ["python", "agent.py"]
